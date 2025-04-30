@@ -82,4 +82,7 @@ func main() {
         password := generatePassword(passwordLength)
         fmt.Println(password)
     }
+    // Ожидание ввода от пользователя, чтобы окно консоли не закрылось
+    fmt.Println("Нажмите Enter, чтобы выйти...")
+    fmt.Scanln()
 }
