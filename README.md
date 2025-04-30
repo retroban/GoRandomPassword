@@ -5,3 +5,12 @@
 * Generate 12 passwords that are 12 characters long and contain lowercase and uppercase letters, numbers and special characters.
 * The programme uses a cryptographically secure random number generator to generate passwords and the Fisher-Yates algorithm to mix the characters.
 * The programme is written in Go language and uses standard libraries for generating random numbers and working with strings.
+
+
+Run without building: go run main.go
+Build for running with double click:
+go mod init
+go build -o PasswordRandow.exe
+(PasswordRandow.exe - for Windows, for Linux or MacOS the extension (.exe) is not needed)
+
+p.s. If desired, you can add code so that the program accepts parameters from the console for the number and length of passwords.
