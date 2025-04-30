@@ -7,7 +7,8 @@
 * The programme is written in Go language and uses standard libraries for generating random numbers and working with strings.
 
 
-Run without building: go run main.go  
+Run without building:  
+go run main.go  
 Build for running with double click:  
 go mod init  
 go build -o PasswordRandow.exe  
