@@ -13,4 +13,6 @@ go mod init
 go build -o PasswordRandow.exe  
 (PasswordRandow.exe - for Windows, for Linux or MacOS the extension (.exe) is not needed)  
 
+In all cases, you must first install the Go language compiler. You can read how to do this on the official language page. [Link here (https://go.dev/doc/install "official language page")]
+
 p.s. If desired, you can add code so that the program accepts parameters from the console for the number and length of passwords.  
